@@ -1,33 +1,81 @@
-
 # Photo Album Management Platform
 
-This is a full-stack application that allows users to create and manage photo albums securely. Users can upload photos, organize them into albums, and download thumbnails. The platform also features role-based access control for enhanced security, ensuring only authorized users can view or manage specific albums and photos.
+**Table of Contents**
+=================
 
-The backend is powered by Spring Boot with a RESTful API for managing albums, photos, and users, while the frontend is built using React for a responsive and user-friendly interface.
+* [About](#about)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [How to Build](#how-to-build)
+* [License](#license)
+* [Contacts](#contacts)
 
+**About**
+=====
 
-## Features
-- User Authentication: Sign up, login, and secure access using JWT-based authentication.
-- Album Management: Users can create, update, and delete photo albums.
-- Photo Upload: Upload photos to albums, with automatic thumbnail generation.
-- Role-Based Access Control: Different access rights based on user roles (e.g., admin, user).
-- Responsive Frontend: User-friendly and responsive interface built with React.
-- Photo Download: Ability to download individual photos or entire albums.
+AlbumManagement is a web application designed to manage and organize photo albums. The application allows users to create, edit, and delete albums, as well as upload and manage photos within each album.
 
+The application is built using a microservices architecture, with separate backend and frontend components. The backend is built using Java and Spring Boot, while the frontend is built using React and Material UI.
 
-## Tech Stack
+**Features**
+=========
 
-**Backend:** Java, Spring Security, H2 Database, Lombok, Maven
+* User authentication and authorization
+* Album creation, editing, and deletion
+* Photo uploading and management within albums
+* Search and filtering capabilities
+* Responsive design for mobile and desktop devices
+* Support for multiple file formats (JPEG, PNG, etc.)
 
-**Frontend:** React, Axios, Material-UI
+**Tech Stack**
+==========
 
+### Backend
 
-## Installation
-Prerequisites
-Ensure you have the following installed on your machine:
+* Java 11
+* Spring Boot 2.5.3
+* Spring Security 5.5.2
+* Hibernate 5.4.32
+* MySQL 8.0.23
 
-Java 8+: To run the Spring Boot backend.
-Node.js & npm: For managing and running the React frontend.
+### Frontend
 
-The backend will be running on http://localhost:8080.
-The frontend will be available on http://localhost:3000.
+* React 17.0.2
+* Material UI 4.11.4
+* React Router 5.2.0
+* Webpack 5.52.1
+* Babel 7.15.8
+
+**How to Build**
+==============
+
+### Backend
+
+To build the backend component, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/AlbumManagement.git`
+2. Navigate to the backend directory: `cd Backend/SpringRestDemo`
+3. Build the project using Maven: `mvn clean install`
+4. Run the application using Spring Boot: `java -jar target/SpringRestDemo-0.0.1-SNAPSHOT.jar`
+
+### Frontend
+
+To build the frontend component, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/AlbumManagement.git`
+2. Navigate to the frontend directory: `cd Frontend/Reactjs`
+3. Install dependencies using npm: `npm install`
+4. Build the project using Webpack: `npm run build`
+5. Start the application using a web server: `npm start`
+
+**License**
+=======
+
+AlbumManagement is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+**Contacts**
+=========
+
+* Email: [vpek215@gmail.com](mailto:your-email@example.com)
+* GitHub: [https://github.com/justmevp](https://github.com/your-username)
+
