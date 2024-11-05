@@ -23,7 +23,6 @@ The application is built using a microservices architecture, with separate backe
 * User authentication and authorization
 * Album creation, editing, and deletion
 * Photo uploading and management within albums
-* Search and filtering capabilities
 * Responsive design for mobile and desktop devices
 * Support for multiple file formats (JPEG, PNG, etc.)
 
@@ -32,19 +31,18 @@ The application is built using a microservices architecture, with separate backe
 
 ### Backend
 
-* Java 11
-* Spring Boot 2.5.3
-* Spring Security 5.5.2
-* Hibernate 5.4.32
-* MySQL 8.0.23
+* Java 17
+* Spring Boot 3.0.1
+* Spring Security 
+* H2 Database 
 
 ### Frontend
 
-* React 17.0.2
-* Material UI 4.11.4
-* React Router 5.2.0
-* Webpack 5.52.1
-* Babel 7.15.8
+* React 
+* Material UI 
+* React Router 
+* Webpack
+* Babel 
 
 **How to Build**
 ==============
